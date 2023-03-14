@@ -19,6 +19,9 @@ const ageCal = (birthYear) => {
 }
 
 const greetWithAge = (name1, name2, name3, age1, age2, age3) =>{
+    age1 = ageCal(age1);
+    age2 = ageCal(age2);
+    age3 = ageCal(age3);
     console.log(`Welcome ${name1}, you are ${age1}. Welcome ${name2}, you are ${age2}. Welcome ${name3}, you are ${age3}`)
 }
 

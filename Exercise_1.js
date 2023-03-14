@@ -4,7 +4,7 @@
 // Return the value of what she should be paying.
 
 const payAmount = number => {
-    number = number + 3 + (number*0.01)
+    number = number + 3 + (number*0.001)
     console.log(`Total pay amount is ${number}$`)
     return number;
 }
